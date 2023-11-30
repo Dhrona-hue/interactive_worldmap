@@ -9,7 +9,7 @@ import pandas as pd
 import plotly.express as px
 import webbrowser
 
-df = pd.read_excel("C:\\Work 2\\RS_stns_list.xlsx")
+df = pd.read_excel("https://github.com/Dhrona-hue/interactive_worldmap/blob/main/RS_stns_list.xlsx")
 
 # Create an interactive scatter plot using plotly
 fig = px.scatter_geo(df, lon='lon', lat='lat', title='Radiosonde Stations',
